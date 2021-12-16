@@ -1,0 +1,57 @@
+body {
+	height: 100vh;
+	margin: 0;
+	background-color: #f5fcff;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.grass {
+	position: absolute;
+	bottom: 0px;
+	max-height: 150px;
+}
+
+.cloud {
+	max-height: 200px;
+	display: block;
+	min-width:100%;
+	height: 100%;
+	width: 100%;
+	margin-top: 50px;
+	background-size: contain;
+	background-repeat: repeat-x;
+	text-align: right;
+	background-image: url(img/cloud.png);s
+}
+
+.sun {
+	position: relative;
+	z-index: -1;
+}
+
+.deer {
+	text-align: center;
+
+}
+
+.deer img{
+	margin-bottom:-200px;
+	max-height: 500px;
+}
+
+.grass{
+	position: relative;
+	z-index: 1;
+	max-height: 150px;
+	display: block;
+	min-width:100%;
+	height: 100%;
+	width: 100%;
+	top: 50px;
+	background-size: contain;
+	background-repeat: repeat-x;
+	text-align: right;
+	background-image: url(img/grass.png);
+}
